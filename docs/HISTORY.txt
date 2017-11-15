@@ -3,6 +3,10 @@ Changelog
 
 10.6.dev0 - (unreleased)
 ------------------------
+* Bug fix: FieldIndex: decode utf-8. 
+  Faceted navigation failed with no results if option with umlauts is
+  selected.
+  [ksuess]
 
 10.5 - (2017-11-14)
 -------------------
